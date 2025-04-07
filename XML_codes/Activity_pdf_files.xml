@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<androidx.constraintlayout.widget.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg5" 
+    tools:context=".PdfFilesActivity" 
+    tools:layout_editor_absoluteX="0dp" 
+    tools:layout_editor_absoluteY="45dp"> 
+ 
+    <TextView 
+        android:id="@+id/textPdfFiles" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:drawableLeft="?attr/actionModeCloseDrawable" 
+        android:text="PDF Files " 
+        android:textColor="@color/material_on_primary_emphasis_medium" 
+        android:textSize="24sp" 
+        android:textStyle="bold" 
+        app:drawableTint="@color/colorWhite" 
+        app:layout_constraintBottom_toBottomOf="parent" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.154" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" 
+        app:layout_constraintVertical_bias="0.037" /> 
+ 
+    <View 
+        android:id="@+id/dividerPdfFiles" 
+        android:layout_width="409dp" 
+        android:layout_height="2dp" 
+        android:background="?android:attr/listDivider" 
+        android:backgroundTint="@color/white" 
+        app:layout_constraintBottom_toBottomOf="parent" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" 
+        app:layout_constraintVertical_bias="0.093" /> 
+ 
+    <Button 
+        android:id="@+id/buttonUploadPdf" 
+        android:layout_width="318dp" 
+        android:layout_height="52dp" 
+        android:layout_marginTop="100dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Select File you want to upload" 
+        android:textAllCaps="false" 
+        android:textSize="16sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.494" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toTopOf="parent" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder1" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 1" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+
+ 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.187" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonUploadPdf" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder2" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 2" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.819" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonUploadPdf" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder3" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 3" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.187" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder1" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder4" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 4" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.835" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder2" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder5" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 5" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.187" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder3" /> 
+ 
+ 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder6" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 6" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.835" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder4" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder7" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 7" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.187" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder5" /> 
+ 
+    <Button 
+        android:id="@+id/buttonPdfFolder8" 
+        android:layout_width="150dp" 
+        android:layout_height="86dp" 
+        android:layout_marginTop="20dp" 
+        android:backgroundTint="#2DDF7EEF" 
+        android:text="Folder 8" 
+        android:textAllCaps="false" 
+        android:textSize="18sp" 
+        android:textStyle="bold" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.835" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder6" /> 
+ 
+    <ImageButton 
+        android:id="@+id/imageButtonPdfAdd" 
+        android:layout_width="54dp" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp" 
+        android:layout_marginBottom="60dp" 
+        android:backgroundTint="#00FFFFFF" 
+        android:visibility="visible" 
+        app:layout_constraintBottom_toBottomOf="parent" 
+        app:layout_constraintEnd_toEndOf="parent" 
+        app:layout_constraintHorizontal_bias="0.879" 
+        app:layout_constraintStart_toStartOf="parent" 
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdfFolder8" 
+        app:srcCompat="@drawable/ic_baseline_add_circle_24" /> 
+ 
+    <ImageButton 
+        android:id="@+id/imageButton" 
+        android:layout_width="54dp" 
+        android:layout_height="40dp" 
+        android:backgroundTint="#00FFFFFF" 
+        app:srcCompat="@drawable/folder" 
+tools:layout_editor_absoluteX="310dp" 
+tools:layout_editor_absoluteY="26dp" /> 
+</androidx.constraintlayout.widget.ConstraintLayout>
